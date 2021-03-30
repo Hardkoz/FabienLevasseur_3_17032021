@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+/* CSS Document */
+body{
+    margin: 0;
+}
+.logo{
+    position: relative;
+    padding: 1rem 3rem 1rem 6rem;
+    width: 40vw;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    background-color: #D2D8D6;
+    padding: 1rem;
+    
+    
+}
+.fa-map-marker-alt{
+    padding-right: 1rem;
+}
+.navp1{
+    background-color: #edeeee;
+}
+.nav1{
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 0rem 1rem 0rem;
+    
+}
+
+.nav2{
+    display: flex;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 1rem;
+}
+
+.nav3{
+    
+    background: linear-gradient( 170deg, #FF79DA, #9356DC );
+    border: none;
+    color: white;
+    padding: 1rem 3rem;
+    padding: 1rem;
+    text-decoration: none;
+    margin: 0rem 0rem 3rem 3.5rem;
+    font-size: 16px;
+    border-radius: 2rem;
+   justify-content: center;
+
+}
+
+
+.fonc{
+    background-color: rgb(255, 255, 255); 
+    border: 0rem solid;
+    color: black;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width: 90%;
+    text-decoration: none;
+    margin: 0rem 0rem 3rem 1rem;
+    font-size: 16px;
+    border-radius: 1rem;
+    box-shadow: 0rem 0.1rem 0.2rem rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+    
+   
+}
+.number{
+  position: absolute;
+ margin-top: 1rem;
+ margin-left: 0.3rem;
+ border-radius: 50%;
+ width: 2rem;
+ height: 2rem;
+ background-color: #9356DC;
+ line-height: 2rem;
+ text-align: center;
+ color: #fff;
+ 
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #edeeee;
+    
+}
+.title-row{
+margin-right: 10rem;
+   
+    
+}
+.restaurant{
+display: flex;
+flex-direction: column;
+    width: 90vw;
+    height: 42vh;
+   margin-bottom: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    background-color: white;
+    
+    
+}
+.new{
+    position: absolute;
+    margin-left: 12rem;
+    margin-top: 1rem;
+    border: 0.1rem solid #99E2D0;
+    background-color: #99E2D0;
+    width: 5rem;
+    text-align: center;
+    border-radius: 0.1rem;
+    
+}
+
+.cards{
+    width: 90vw;
+    height: 30vh;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.fa-heart{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    
+    line-height:0.1rem;
+    
+    
+}
+
+h4,p{
+    margin-left: 1rem;
+    line-height:0.1rem;
+    
+}
+
+.foot{
+    margin: 2rem 0rem 0rem 0rem;
+    padding: 1rem;
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.fa-utensils{
+    margin-right: 1.4rem;
+    
+}
+
+.fa-hands-helping{
+    margin-right: 1rem;
+}
+
+.foot-1, .foot-2, .foot-3, .foot-4{
+    line-height: 1.5rem;
+}
+
+
