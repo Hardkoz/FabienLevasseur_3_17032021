@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+
+.head-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+   
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 0rem;
+    
+}
+
+.fa-arrow-left{
+   width: 40%;
+   padding-left: 1rem;
+    
+}
+
+.photo{
+    width: 50%;
+    
+}
+
+
+
+.cards{
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.nav3{
+    
+    background: linear-gradient( 170deg, #FF79DA, #9356DC );
+    border: none;
+    color: white;
+    padding: 1rem 3rem;
+    margin: 2rem 0rem 3rem 0rem;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 2rem;
+}   
+
+.carte-menu{
+    background-color: #edeeee;
+    
+}
+
+
+.menu{
+    background-color: rgb(255, 255, 255); 
+    border: 0rem solid;
+    color: black;
+    padding: 0.1rem 0.5rem;
+   line-height: 0rem;
+    margin: 1rem 0rem 1rem 0rem;
+    
+    width: 90%;
+    text-decoration: none;
+    
+    
+    border-radius: 1rem;
+    box-shadow: 0rem 0.1rem 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+.foot{
+    margin: 2rem 0rem 0rem 0rem;
+    padding: 1rem;
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.fa-utensils{
+    margin-right: 1.4rem;
+    
+}
+
+.fa-hands-helping{
+    margin-right: 1rem;
+}
+
+.foot-1, .foot-2, .foot-3, .foot-4{
+    line-height: 1.5rem;
+}
