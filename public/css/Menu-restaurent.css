@@ -1,0 +1,123 @@
+html{
+  margin: 0rem;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0rem;
+  
+}
+
+.head-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-start;
+  margin: 1rem 0rem 1rem 0rem;
+  
+}
+
+.fa-arrow-left {
+  width: 40%;
+  padding-left: 1rem;
+}
+
+.photo {
+  width: 50%;
+  vertical-align: -0.2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  position: absolute;
+  width: 100vw;
+}
+
+.carte-menu {
+  background-color: #edeeee;
+  border-radius: 3rem 3rem 0rem 0rem;
+  position: relative;
+  margin-top: 9rem;
+ 
+}
+
+.title-resto {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  font-family: "Shrikhand";
+  font-style: oblique;
+  font-size: x-large;
+  font-weight: 900;
+ 
+  
+}
+.title {
+  border-bottom: #99e2d0 0.2rem solid;
+  line-height: 1rem;
+  width: 15%;
+  margin-left: 1rem;
+ 
+}
+
+.menu {
+  background-color: rgb(255, 255, 255);
+  border: 0rem solid;
+  color: black;
+  padding: 1rem 1rem 1rem 1rem;
+  line-height: 0rem;
+  margin: 1rem ;
+  width: auto;
+  text-decoration: none;
+  border-radius: 1rem;
+  box-shadow: 0rem 0.1rem 0.2rem rgba(0, 0, 0, 0.5);
+  align-self: center;
+}
+
+.menu > .price {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  background-color: #edeeee;
+ 
+  padding-bottom: 2rem;
+}
+.nav3 {
+  background: linear-gradient(170deg, #ff79da, #9356dc);
+  border: none;
+  color: #fff;
+  padding: 1rem 3rem;
+  margin: 2rem 0rem 3rem 0rem;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 2rem;
+}
+
+.foot {
+  padding: 1rem;
+  background-color: rgb(49, 49, 49);
+  color: white;
+}
+.title-footer {
+  font-family: "Shrikhand";
+}
+
+.fa-utensils {
+  margin-right: 1.4rem;
+}
+
+.fa-hands-helping {
+  margin-right: 1rem;
+}
+
+.foot-1,
+.foot-2,
+.foot-3,
+.foot-4 {
+  line-height: 1.5rem;
+}
