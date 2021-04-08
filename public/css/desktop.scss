@@ -152,19 +152,30 @@ body{
    justify-content: center;
 
 }
+div.fonction{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  
+ 
+  
+  
+}
 
-
-.fonc{
+button.fonc{
     background-color: $color-white; 
     border: 0rem solid;
     color: black;
     padding: 1rem;
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
-    width: 90%;
+   justify-content: center;
+   align-items: center;
+    width: 30%;
     text-decoration: none;
-    margin: 0rem 0rem 3rem 1rem;
+    margin: 0rem 1rem 3rem 1rem;
     font-size: 1rem;
     border-radius: 1rem;
     box-shadow: 0rem 0.1rem 0.2rem rgba(0, 0, 0, 0.5);
@@ -175,8 +186,8 @@ body{
 }
 .number{
   position: absolute;
- margin-top: -0.3rem;
- margin-right: 18rem;
+ margin-top: 0.5rem;
+ margin-left: 0.3rem;
  border-radius: 50%;
  width: 2rem;
  height: 2rem;
@@ -189,10 +200,11 @@ body{
 
 .row{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     background-color: #edeeee;
     padding-bottom: 3rem;
+    width: 100%;
     
 }
 .title-row{
@@ -203,7 +215,7 @@ margin-right: 10rem;
 .restaurant{
     display: flex;
     flex-direction: column;
-    width: $width-res-cards;
+    width: 20vw;
     height: 42vh;
     margin-bottom: 1rem;
     border-radius: 1rem;
@@ -227,35 +239,24 @@ margin-right: 10rem;
 }
 
 .cards{
-    width: $width-res-cards;
+    width: 20vw;
     height: 30vh;
     border-radius: 1rem 1rem 0rem 0rem;
 }
 
-.coeurRestau {
-  display: flex;
-  justify-content: flex-end;
+.fa-heart{
   
-  
- 
-  &:hover .fas {
-    transform-origin: bottom;
-    transition: transform 400ms;
-    transform: scale(1);
-   
-  }
-  .far {
-    position: absolute;
-  }
-  .fas {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    line-height:0.1rem;
     
-    color:$colour-primary;
-    position: absolute;
-    transform: scale(0);
-  }
 }
 
-
+.fa-heart:hover{
+    color: linear-gradient( 170deg, #FF79DA, #9356DC );
+   
+}
 
 h4,p{
     margin-left: 1rem;
@@ -292,5 +293,4 @@ h4,p{
 .foot-1, .foot-2, .foot-3, .foot-4{
     line-height: 1.5rem;
 }
-
 

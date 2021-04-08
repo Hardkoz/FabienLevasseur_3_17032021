@@ -5,6 +5,8 @@
     <script src="https://kit.fontawesome.com/a1646c5b7b.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="public/css/Menu-restaurent.css" />
+    <link rel="stylesheet" media="screen and   (min-width: 530px)" href="tablet.css" />
+    <link rel="stylesheet" media="screen and (min-width: 1440px)" href="desktop.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap" rel="stylesheet">
@@ -14,89 +16,145 @@
 <body>
     <header>
         <div class="head-1">
-            <div><i class="fas fa-arrow-left"></i><img class="photo" src="public/img/logo/ohmyfood@2x.svg"
-                    alt="logo du site" /></div>
-        </div>
+            <div><a href="index.html"><i class="fas fa-arrow-left"></i></a><img class="photo" src="public/img/logo/ohmyfood@2x.svg"
+                alt="logo du site" /></div>
+    </div>
         <a href="#"><img src="public/img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="" class="cards" /></a>
     </header>
 
 
     <main>
         
-        <div class="carte-menu">
+        <div class="menu">
             
             <div class="row">
                 
-                <div class="title-resto"> La note enchantée <i class="far fa-heart"></i></div>
+                
+                <div class="title-svg">
+                    <h1>La note enchantée</h1>
+                    <i class="far fa-heart"></i>
+                </div>
             
 
-                <div class="title">ENTREES</div>
-
-                <div class="menu">
-                    <h4>Ravioles de foie gras </h4>
-                    <div class="price">Accompagnés de leur crème à la truffe<div>25€</div></div>
-                    
-                </div>
-
-                <div class="menu">
-                    <h4>Caviar osciètre </h4>
-                    <div class="price">Sur blini à la farine de blé noir<div>35€</div></div>
-                </div>
-
-                <div class="menu">
-                    <h4>Homard et espuma de potiron</h4>
-                    <div class="price">Mariné aux zestes d'orange<div>20€</div></div>
+                <div class="containers-menu">
+                    <div class="entree">
+                        <h2>ENTREES</h2>
+                        <div class="container-menu">
+                            <div class="information-menu">
+                                <h3>Ravioles de foie gras</h3>
+                                <div class="price-info">
+                                    <p>Accompagnés de leur crème à la truffe</p>
+                                    <span>25€</span>
+                                </div>
+                            </div>
+                            <div class="animehover"><img src="public/img/svg/check-solid.svg" alt=""></div>
+                        </div>
+                        <div class="container-menu">
+                            <div class="information-menu">
+                                <h3>Caviar osciètre</h3>
+                                <div class="price-info">
+                                    <p>Sur blini à la farine de blé noir</p>
+                                    <span>35€</span>
+                                </div>
+                            </div>
+                            <div class="animehover"><img src="public/img/svg/check-solid.svg" alt=""></div>             
+                        </div>
+                        <div class="container-menu">
+                            <div class="information-menu">
+                                <h3>Homard et espuma de potiron</h3>
+                                <div class="price-info">
+                                    <p>Mariné aux zestes d'orange</p>
+                                    <span>20€</span>
+                                </div>
+                            </div>
+                            <div class="animehover"><img src="public/img/svg/check-solid.svg" alt=""></div>
+                        </div>
+                        <div class="container-menu">
+                            <div class="information-menu">
+                                <h3>Foie gras de canard cuit entier</h3>
+                                <div class="price-info">
+                                    <p>Confiture de figue et pain toasté</p>
+                                    <span>35€</span>
+                                </div>
+                            </div>
+                            <div class="animehover"><img src="public/img/svg/check-solid.svg" alt=""></div>
+                        </div>
                     </div>
-
-                    <div class="menu">
-                        <h4>
-                            Foie gras de canard cuit entier </h4>
-                        <div class="price">Confiture de figue et pain toasté<div>35€</div></div>
-                    </div>    
-
+            
+                    <div class="plats">
+                        <h2>PLATS</h2>
+                        <div class="container-menu">
+                            <div class="information-menu">
+                                <h3>Noix de coquilles Saint-Jacques</h3>
+                                <div class="price-info">
+                                    <p>Sur lit de purée de céleri-rave</p>
+                                    <span>40€</span>
+                                </div>
+                            </div>
+                            <div class="animehover"><img src="public/img/svg/check-solid.svg" alt=""></div>
+                        </div>
+                        <div class="container-menu">
+                            <div class="information-menu">
+                                <h3>Langoustine poêlée</h3>
+                                <div class="price-info">
+                                    <p>Purée de patate douce</p>
+                                    <span>35€</span>
+                                </div>
+                            </div>
+                            <div class="animehover"><img src="public/img/svg/check-solid.svg" alt=""></div>
+                        </div>
+                        <div class="container-menu">
+                            <div class="information-menu">
+                                <h3>Mijoté de queue de boeuf</h3>
+                                <div class="price-info">
+                                    <p>Et riz sauvage aux zestes de citron</p>
+                                    <span>44€</span>
+                                </div>
+                            </div>
+                            <div class="animehover"><img src="public/img/svg/check-solid.svg" alt=""></div>
+                        </div>
+                    </div>
+            
+                    <div class="dessert">
+                        <h2>DESSERT</h2>
+                        <div class="container-menu">
+                            <div class="information-menu">
+                                <h3>Macaron noisette et chocolat</h3>
+                                <div class="price-info">
+                                    <p>Glace au caramel brun et sel de Guérande</p>
+                                    <span>18€</span>
+                                </div>
+                            </div>
+                            <div class="animehover"><img src="public/img/svg/check-solid.svg" alt=""></div>
+                        </div>
+                        <div class="container-menu">
+                            <div class="information-menu">
+                                <h3>Baba au rhum revisité</h3>
+                                <div class="price-info">
+                                    <p>Avec son coulis de citron</p>
+                                    <span>22€</span>
+                                </div>
+                            </div>
+                            <div class="animehover"><img src="public/img/svg/check-solid.svg" alt=""></div>
+                        </div>
+                        <div class="container-menu">
+                            <div class="information-menu">
+                                <h3>Tarte au citron meringuée</h3>
+                                <div class="price-info">
+                                    <p>Déstructurée</p>
+                                    <span>23€</span>
+                                </div>
+                            </div>
+                            <div class="animehover"><img src="public/img/svg/check-solid.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <input type="button" class="nav3" value="Commander">
                 
-                <div class="title">PLATS</div>
-
-                <div class="menu">
-                    <h4>Noix de coquilles Saint-Jacques</h4>
-                    <div class="price">Sur lit de purée de céleri-rave<div>40€</div></div>
+                    </div>
                 </div>
 
-                <div class="menu">
-                    <h4>Langoustine poêlée</h4>
-                    <div class="price">Purée de patate douce<div>35€</div></div>
-                </div>
-
-                <div class="menu">
-                    <h4>Mijoté de queue de boeuf </h4>
-                    <div class="price">Et riz sauvage aux zestes de citron<div>44€</div></div>
-                </div>
-
-                
-                <div class="title">DESSERTS</div>
-
-                <div class="menu">
-                    <h4>Macaron noisette et chocolat</h4>
-                    <div class="price">Glace au caramel brun et sel de Guérande<div>18€</div></div>
-                </div>
-
-                <div class="menu">
-                    <h4>Baba au rhum revisité </h4>
-                    <div class="price">Avec son coulis de citron<div>22€</div></div>
-                </div>
-
-                <div class="menu">
-                    <h4>Tarte au citron meringuée </h4>
-                    <div class="price">Déstructurée<div>23€</div></div>
-                </div>
-
-            </div>
-        </div>
-
-            <div class="container">
-                <input type="button" class="nav3" value="Commander">
-
-            </div>
+            
     </main>
     <footer>
         <div class="foot">
