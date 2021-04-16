@@ -1,0 +1,41 @@
+.container-h{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+ }
+ .logo{
+     display: block;
+     padding: 1rem;
+ }
+ 
+ .map{
+     display: flex;
+     justify-content: center;
+     background-color: $colour-background-dark;
+     padding: 1rem;
+     box-shadow: 190rem 190rem 190rem rgba(0, 0, 0, 0.5);
+ }
+ .fa-map-marker-alt{
+     padding-right: 1rem;
+ }
+
+
+ .head-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+  
+  .fa-arrow-left {
+    width: 40%;
+    padding-left: 1rem;
+    color: black;
+  }
+  
+  .photo {
+    width: 50%;
+    vertical-align: -0.2rem;
+  }

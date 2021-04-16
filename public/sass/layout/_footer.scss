@@ -1,0 +1,37 @@
+
+
+.foot{
+ 
+  
+    
+    background-color: $colour-background-footer;
+    color: white;
+}
+.title-footer {
+    font-family: "Shrikhand";
+    padding: $padding-gen;
+  }
+.fa-utensils{
+    margin-right: 1.4rem;
+   
+    
+}
+
+.fa-hands-helping{
+    margin-right: 1rem;
+}
+.foot-0{
+
+    display: inline-flex;
+    flex-direction: column;
+    padding: $padding-gen;
+
+}
+
+.foot-1, .foot-2, .foot-3, .foot-4{
+    line-height: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+

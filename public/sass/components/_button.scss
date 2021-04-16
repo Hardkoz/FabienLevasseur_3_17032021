@@ -1,0 +1,17 @@
+.btn{
+    background: linear-gradient( 170deg, $colour-secondary, $colour-primary );
+    border: none;
+    color: $color-white;
+    padding: $padding-gen;
+    text-decoration: none;
+    margin: 0rem 0rem 3rem 3rem;
+    font-size: $size-normal;
+    border-radius: 2rem;
+   justify-content: center;
+   transition: all 0.3s;
+  cursor: pointer;
+  &:hover {
+    background: linear-gradient(to bottom, lighten($clr-secondary, 4%), lighten($clr-primary, 5%));
+    box-shadow: $shadow-hover;
+  }
+}

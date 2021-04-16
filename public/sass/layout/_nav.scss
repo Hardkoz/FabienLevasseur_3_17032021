@@ -1,0 +1,103 @@
+.navp1{
+    background-color: $colour-background;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.nav1{
+    display: flex;
+    text-align: center;
+    padding: $padding-gen;
+    font-size: 1.9rem;
+}
+
+.nav2{
+    display: flex;
+    text-align: center;
+    font-size: $size-normal;
+    padding: $padding-gen;
+}
+.btn{
+    display: flex;
+    background: linear-gradient( 170deg, $colour-secondary, $colour-primary );
+    border: none;
+    color: $color-white;
+    padding: $padding-gen;
+    text-decoration: none;
+    align-self: center;
+    font-size: $size-normal;
+    border-radius: 2rem;
+   justify-content: center;
+   transition: all 0.3s;
+  cursor: pointer;
+  &:hover {
+    background: linear-gradient(to bottom, lighten($colour-secondary, 4%), lighten($colour-primary, 5%));
+    box-shadow: $shadow-hover;
+  }
+}
+.fonc{
+    background-color: $color-white; 
+    border: 0rem solid;
+    color: black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width: 90%;
+    text-decoration: none;
+    margin: 0rem 0rem 3rem 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 0.1rem 0.2rem rgba(0, 0, 0, 0.5);
+    text-align: center;
+    &:hover {
+        background: lighten($colour-primary, 35%);
+        i {
+          color: $colour-primary;
+        }
+      }
+}
+
+.number{
+  position: absolute;
+ 
+ border-radius: 50%;
+ width: 2rem;
+ height: 2rem;
+ background-color: $colour-primary;
+ line-height: 2rem;
+ 
+ color: $color-white;
+}
+
+@media screen and (min-width: 768px){
+
+    .fonc{
+        position: relative;
+        background-color: $color-white; 
+        border: 0rem solid;
+        color: black;
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        width: 25%;
+        text-decoration: none;
+        margin: 0rem 0rem 3rem 1rem;
+        font-size: 1rem;
+        border-radius: 1rem;
+        box-shadow: 0rem 0.1rem 0.2rem rgba(0, 0, 0, 0.5);
+        text-align: center;
+        &:hover {
+            background: lighten($colour-primary, 35%);
+            i {
+              color: $colour-primary;
+            }
+          }
+    }
+
+
+
+
+}

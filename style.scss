@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/* CSS Document */
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+
+
+
+
+
+@import "public/sass/utils/_variables";
+@import"public/sass/utils/mixins";
+@import"public/sass/utils/animations";
+@import"public/sass/layout/_heade.scss";
+@import"public/sass/layout/_loading";
+@import"public/sass/layout/_nav";
+@import"public/sass/layout/_menu-restorants";
+
+@import "public/sass/layout/_footer.scss";
+
+
+
+

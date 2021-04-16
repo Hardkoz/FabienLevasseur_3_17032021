@@ -1,9 +1,0 @@
-.navp1{
-    .nav3{
-        @include nav3;
-        &:hover{
-            background: linear-gradient(170deg, lighten($color-secondaire, 10%), lighten($color-primaire, 10%));
-            @include box-shadow(darken($color-font, 30%));
-        }
-    }
-}

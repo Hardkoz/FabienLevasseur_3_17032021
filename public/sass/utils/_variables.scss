@@ -1,0 +1,29 @@
+/*Couleur-du-site*/
+$colour-primary: #9356DC;
+$colour-secondary: #FF79DA;
+$colour-tertiary: #99E2D0;
+$colour-background: #edeeee;
+$colour-background-dark: #D2D8D6;
+$colour-background-footer: #313131;
+$color-white: #fff;
+
+/*marge et padding*/
+$padding-gen: 1rem;
+$margin-gen:1rem;
+
+$width-res-cards: 90vw;
+$size-normal: 1.1rem;
+
+/*Shadows Variables */
+$shadow: 0 5px 20px -10px black;
+$shadow-hover: 0 15px 30px -10px black;
+
+/*image*/
+$img-A-la-francaise: "\public\img\restaurants\a_la_francaise.jpg";
+$img-la-note-echantee: "public\img\restaurants\la_note_enchantee.jpg";
+$img-la_palette_du_gout: "public\img\restaurants\la_palette_du_gout.jpg";
+$img-le_delice_des_gout: "public\img\restaurants\le_delice_des_gout.jpg";
+
+$breakpoints:(
+    tablet: 800px
+);
