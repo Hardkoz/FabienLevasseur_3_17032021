@@ -1,3 +1,4 @@
+@media screen and (max-width:429px){
 .row{
     display: flex;
     flex-direction: column;
@@ -73,8 +74,9 @@ h4,p{
     width: 2rem;
     height: 0rem;
 }
+}
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 430px) and (max-width:1025px){
     .row{
         display: flex;
         flex-direction: row;
@@ -155,10 +157,10 @@ h4,p{
     
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1026px) and (max-width:2560px) {
     .row{
         display: flex;
-        flex-direction: row;
+        justify-content: center;
         
         flex-wrap: wrap;
         background-color: #edeeee;
@@ -167,12 +169,13 @@ h4,p{
     }
     .title-row{
    width: 100%;
+   text-align: center;
     }
     .restaurant{
-        display: flex;
+        
        
         width:20vw;
-        height: 19vw;
+        height: 21vw;
         margin: 1rem;
         margin-bottom: 1rem;
         border-radius: 1rem;
@@ -193,7 +196,7 @@ h4,p{
     
     .cards{
         width:20vw;
-        height: 20vh;
+        height: 14vw;
         border-radius: 1rem 1rem 0rem 0rem;
     }
     
@@ -220,6 +223,7 @@ h4,p{
         transform: scale(0);
       }
     }
+
     
     
     
@@ -316,10 +320,10 @@ h4,p{
    .container-menu
    {
        display: flex;
-       border-radius: 15px;
+       border-radius: 1rem;
        background-color: white;
        cursor: pointer;
-       margin: 20px;
+       margin: 2rem;
        box-shadow: 0 5px 7px rgba(212, 210, 210, 0.61);
        padding-right: 0;
        height: 5rem;
@@ -329,7 +333,7 @@ h4,p{
    .information-menu h3
    {
        font-weight: bold;
-       font-size: 1em;
+       font-size: 1rem;
    }
    .information-menu
    {
@@ -344,12 +348,12 @@ h4,p{
    }
    .price-info p
    {
-       color: rgb(73, 69, 69);
-       font-weight: 400;
-       width: 90%;
-       text-overflow: ellipsis;
-       overflow: hidden;
-       white-space:nowrap;
+    color: rgb(73, 69, 69);
+    font-weight: 400;
+    width: 90%;
+    text-overflow: ellipsis;
+    
+    white-space:nowrap;
    }
    .price-info span
    {
@@ -440,13 +444,7 @@ h4,p{
        flex: 1 1;
    }
    
-   .container {
-     display: flex;
-    
-     background-color: #edeeee;
-     padding-top: 1rem;
-     padding-bottom: 3rem;
-   }
+ 
    
 
 
