@@ -17,7 +17,12 @@ body{
 @import"public/sass/layout/_heade.scss";
 @import"public/sass/layout/_loading";
 @import"public/sass/layout/_nav";
-@import"public/sass/layout/_menu-restorants";
+@import"public/sass/layout/menu-restaurants-mobile";
+@import"public/sass/layout/menu-restaurants-tablet";
+@import"public/sass/layout/menu-restaurants-desktop";
+@import"public/sass/layout/acceuil-mobile";
+@import"public/sass/layout/acceuil-tablet";
+@import"public/sass/layout/acceuil-desktop";
 
 @import "public/sass/layout/_footer.scss";
 

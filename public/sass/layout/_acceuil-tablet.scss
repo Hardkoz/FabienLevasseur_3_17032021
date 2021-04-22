@@ -1,0 +1,76 @@
+@media screen and (min-width: 430px) and (max-width: 1025px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #edeeee;
+    padding-bottom: 3rem;
+  }
+  .title-row {
+    width: 85%;
+  }
+  .restaurant {
+    display: flex;
+    width: 40vw;
+    height: auto;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    background-color: white;
+    position: relative;
+  }
+  .new {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: 0.1rem solid $colour-tertiary;
+    background-color: $colour-tertiary;
+    width: 5rem;
+    text-align: center;
+    border-radius: 0.1rem;
+  }
+
+  .cards {
+    width: 40vw;
+    height: 20vh;
+    border-radius: 1rem 1rem 0rem 0rem;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .coeurRestau-A {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+
+    &:hover .fas {
+      transform-origin: bottom;
+      transition: transform 400ms;
+      transform: scale(1);
+    }
+    .far {
+      position: absolute;
+    }
+    .fas {
+      color: $colour-primary;
+      position: absolute;
+      transform: scale(0);
+    }
+  }
+
+  h4,
+  p {
+    margin-left: 1rem;
+    line-height: 0rem;
+  }
+
+  .menu {
+    display: flex;
+    width: 2rem;
+    height: 0rem;
+  }
+}

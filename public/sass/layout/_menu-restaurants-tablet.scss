@@ -1,0 +1,139 @@
+@media screen and (min-width: 430px) and (max-width: 1025px) {
+    .card {
+        position: absolute;
+        width: 100%;
+      }
+      #menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $colour-background;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        position: relative;
+        margin-top: 10rem;
+      }
+      
+      .titreMenu {
+        justify-content: space-between;
+        font-family: "Shrikhand", sans-serif;
+        width: 90%;
+        font-size: 2rem;
+        display: flex;
+      }
+      .coeurRestau {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10%;
+        padding-left: 0%;
+        &:hover .fas {
+          transform-origin: bottom;
+          transition: transform 400ms;
+          transform: scale(1);
+        }
+        .far {
+          position: absolute;
+        }
+        .fas {
+          color: $colour-primary;
+          position: absolute;
+          transform: scale(0);
+        }
+      }
+      .bloc-menu {
+        width: 90%;
+        margin-bottom: 15px;
+        .plats:nth-child(2) {
+          animation: transition-load 0.8s;
+        }
+        .plats:nth-child(3) {
+          animation: transition-load 1s;
+        }
+        .plats:nth-child(4) {
+          animation: transition-load 2s;
+        }
+        .plats:nth-child(5) {
+          animation: transition-load 3s;
+        }
+        p {
+          font-size: 1.5rem;
+          line-height: 0;
+        }
+        .souligne {
+          background-color: $colour-tertiary;
+          width: 4rem;
+          height: 0.2rem;
+          margin-bottom: 1rem;
+          margin-left: 1rem;
+        }
+        .plats {
+          display: flex;
+          background-color: white;
+          border-radius: 20px;
+          line-height: 0;
+          padding: 2px 0px 5px 5px;
+          margin-bottom: 1rem;
+          box-shadow: 1px 5px 8px 0px rgb(221, 221, 221);
+          transform: rotate(0turn);
+          &:hover .transitionOk {
+            transform-origin: right 100%;
+            transition: transform 300ms ease-in-out;
+            transform: scaleX(1);
+          }
+          &:hover .fa-check-circle {
+            transform: rotate(2turn);
+            transition: transform 400ms ease-in-out;
+          }
+          &:hover .titreDescriptif {
+            width: 80%;
+          }
+          .titreDescriptif {
+            width: 90%;
+            transform: scaleX(1);
+            h5 {
+              font-size: 1rem;
+              line-height: 1.2;
+              white-space: nowrap;
+            }
+            p {
+              font-size: 0.9rem;
+              line-height: 1.2;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              overflow: hidden;
+              margin-left: 0;
+            }
+          }
+          .prixDescriptif {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            padding: 0px 20px 18px 0px;
+          }
+          .prix {
+            font-size: 15px;
+            font-weight: bold;
+          }
+          .transitionOk {
+            background-color: $colour-tertiary;
+            width: 15%;
+            height: 100%;
+            position: absolute;
+            right: 0%;
+            top: 0%;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            transform: scaleX(0);
+          }
+          .fa-check-circle {
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+}

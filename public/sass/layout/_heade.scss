@@ -1,11 +1,16 @@
 .container-h{
     display: flex;
     justify-content: center;
-    width: 100%;
+    
+    
+   
+    
  }
  .logo{
      display: block;
      padding: 1rem;
+     
+     
  }
  
  .map{
@@ -13,7 +18,8 @@
      justify-content: center;
      background-color: $colour-background-dark;
      padding: 1rem;
-     box-shadow: 190rem 190rem 190rem rgba(0, 0, 0, 0.5);
+     box-shadow: inset 0 3.5px 3px rgb(128 128 128 / 50%);
+    
  }
  .fa-map-marker-alt{
      padding-right: 1rem;
@@ -23,19 +29,22 @@
  .head-1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
-    align-items: flex-start;
+    
     margin: 1rem 0rem 1rem 0rem;
   }
   
   .fa-arrow-left {
-    width: 40%;
+    position: absolute;
+   top: 3%;
     padding-left: 1rem;
     color: black;
+    right: 90%;
   }
   
   .photo {
-    width: 50%;
-    vertical-align: -0.2rem;
+    width: 100%;
+    
+   
   }
