@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 429px) {
   .navp1 {
     background-color: $colour-background;
@@ -16,6 +17,9 @@
     display: flex;
     text-align: center;
     font-size: $size-normal;
+    padding: $padding-gen;
+  }
+  .title-fonc{
     padding: $padding-gen;
   }
   .btn {
@@ -41,6 +45,11 @@
       box-shadow: $shadow-hover;
     }
   }
+  .fonction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .fonc {
     background-color: $color-white;
     border: 0rem solid;
@@ -49,7 +58,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 90%;
+    width: 17rem;
     text-decoration: none;
     margin: 0rem 0rem 3rem 1rem;
     font-size: 1rem;
@@ -64,9 +73,10 @@
     }
   }
 
-  .number1 {
+  .number1, .number2, .number3 {
     position: relative;
     top: 2.5rem;
+    right: 8rem;
     text-align: center;
     vertical-align: middle;
     border-radius: 50%;
@@ -77,32 +87,8 @@
     margin: 0%;
     color: $color-white;
   }
-  .number2 {
-    position: relative;
-    top: 2.5rem;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
-    background-color: $colour-primary;
-    line-height: 2rem;
-    margin: 0%;
-    color: $color-white;
-  }
-  .number3 {
-    position: relative;
-    top: 2.5rem;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
-    background-color: $colour-primary;
-    line-height: 2rem;
-    margin: 0%;
-    color: $color-white;
-  }
+   
+   
 }
 
 @media screen and (min-width: 430px) and (max-width: 1025px) {
@@ -149,17 +135,16 @@
       box-shadow: $shadow-hover;
     }
   }
-  .title-fonc {
+  .title-fonc{
     display: flex;
     justify-content: center;
-    margin-bottom: 1rem;
+   
   }
   .fonction {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-self: center;
-    padding: 1rem;
+    flex-direction: column;
+   align-items: center;
+   
   }
   .fonc {
     background-color: $color-white;
@@ -169,7 +154,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 25%;
+    
+    width: 20rem;
     text-decoration: none;
     margin: 0rem 0rem 3rem 1rem;
     font-size: 1rem;
@@ -184,11 +170,11 @@
     }
   }
 
-  .number1 {
+  .number1, .number2, .number3  {
     position: relative;
+    top: 2.5rem;
+    right: 9.5rem;
     text-align: center;
-    bottom: 2rem;
-    left: 1.5rem;
     vertical-align: middle;
     border-radius: 50%;
     width: 2rem;
@@ -198,34 +184,7 @@
     margin: 0%;
     color: $color-white;
   }
-  .number2 {
-    position: relative;
-    text-align: center;
-    bottom: 2rem;
-    left: 1.5rem;
-    vertical-align: middle;
-    border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
-    background-color: $colour-primary;
-    line-height: 2rem;
-    margin: 0%;
-    color: $color-white;
-  }
-  .number3 {
-    position: relative;
-    text-align: center;
-    bottom: 2rem;
-    left: 1.5rem;
-    vertical-align: middle;
-    border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
-    background-color: $colour-primary;
-    line-height: 2rem;
-    margin: 0%;
-    color: $color-white;
-  }
+   
 }
 
 @media screen and (min-width: 1026px) and (max-width: 2560px) {
@@ -276,12 +235,13 @@
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
+    
   }
   .fonction {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    justify-content: space-around;
+    
   }
   .fonc {
     display: flex;
@@ -291,7 +251,7 @@
     background-color: $color-white;
     border: 0rem solid;
     color: black;
-    padding: 1rem;
+    padding: 1rem ;
 
     width: 15rem;
     text-decoration: none;
@@ -308,10 +268,10 @@
     }
   }
 
-  .number1 {
+  .number1, .number2, .number3  {
     position: relative;
     text-align: center;
-    left: 8rem;
+    left: 2rem;
     top: 0.5rem;
     vertical-align: middle;
     border-radius: 50%;
@@ -322,32 +282,5 @@
     margin: 0%;
     color: $color-white;
   }
-  .number2 {
-    position: relative;
-    text-align: center;
-    left: 8rem;
-    top: 0.5rem;
-    vertical-align: middle;
-    border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
-    background-color: $colour-primary;
-    line-height: 2rem;
-    margin: 0%;
-    color: $color-white;
-  }
-  .number3 {
-    position: relative;
-   text-align: center;
-   left: 8rem;
-    top: 0.5rem;
-    vertical-align: middle;
-    border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
-    background-color: $colour-primary;
-    line-height: 2rem;
-    margin: 0%;
-    color: $color-white;
-  }
+   
 }
