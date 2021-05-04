@@ -88,13 +88,17 @@
     &:hover .titreDescriptif {
       width: 50%;
     }
+   
     .titreDescriptif {
       width: 80%;
       transform: scaleX(1);
       h5 {
         font-size: 1rem;
         line-height: 1.2;
+        margin-left: 1rem;
+        text-overflow: ellipsis;
         white-space: nowrap;
+        overflow: hidden;
       }
       p {
         font-size: 0.9rem;
@@ -102,7 +106,7 @@
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
-        margin-left: 0;
+        margin-left: 1rem;
       }
     }
     .prixDescriptif {

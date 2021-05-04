@@ -12,10 +12,12 @@
     transform: translate(-80px, -80px);
     animation: lds-spinner-containers 0s 2s forwards;
     
+    
   }
   .lds-spinner div {
     transform-origin: 40px 40px;
     animation: lds-spinner 1.2s linear infinite;
+    
   }
   .lds-spinner div:after {
     content: " ";
@@ -26,7 +28,8 @@
     width: 6px;
     height: 18px;
     border-radius: 20%;
-    background: black;
+    background: white;
+    
   }
   .lds-spinner div:nth-child(1) {
     transform: rotate(0deg);
